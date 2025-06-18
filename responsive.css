@@ -1,0 +1,210 @@
+/* Styles responsifs */
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        max-width: 700px;
+    }
+    
+    .nav-links {
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .section {
+        padding: 80px 5%;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .about-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about-image {
+        margin-bottom: 0;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .about-social {
+        opacity: 1;
+        transform: translateY(0);
+        position: relative;
+        bottom: 0;
+        margin-top: 15px;
+    }
+    
+    .about-content {
+        padding: 0 10px;
+    }
+    
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .resume-timeline {
+        padding-left: 25px;
+    }
+    
+    .resume-dot {
+        left: -33px;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .resume-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .resume-date {
+        font-size: 0.8rem;
+    }
+    
+    .tools-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .contact-container {
+        flex-direction: column;
+    }
+    
+    .contact-info {
+        margin-bottom: 40px;
+    }
+    
+    .instagram-profiles {
+        gap: 20px;
+    }
+    
+    .profile-card {
+        max-width: 100%;
+    }
+    
+    .posts-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .website-card {
+        flex-direction: column;
+    }
+    
+    .website-info {
+        padding: 20px;
+    }
+    
+    .ecommerce-card {
+        flex-direction: column;
+    }
+    
+    .design-gallery {
+        flex-direction: column;
+    }
+    
+    .logo-showcase {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .clients-container {
+        gap: 20px;
+    }
+    
+    .client-logo {
+        width: 150px;
+        height: 80px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .client-logo {
+        width: 120px;
+        height: 115px;
+    }
+    
+    .circle-menu {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .circle-menu i {
+        font-size: 1.2rem;
+    }
+    
+    .mobile-menu {
+        width: 100%;
+    }
+    
+    .profile-card, .post, .website-card {
+        max-width: 100%;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .stat {
+        padding: 10px 0;
+    }
+    
+    .post {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .post-engagement {
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .metric i {
+        font-size: 1rem;
+    }
+    
+    .metric span {
+        font-size: 0.8rem;
+    }
+	
+}
+
